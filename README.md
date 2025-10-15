@@ -21,8 +21,7 @@ The process begins in the Project Setup window. Here, the user defines all input
 -   **Load Videos:** Users can load multiple video files simultaneously. For each video, the acquisition period can be specified to ensure correct temporal resampling.
 -   **Load Data Files:** The application supports loading tabular data from `.csv` and `.xlsx` files. For each file, the user specifies whether the first column represents **time** (with units s, ms, µs) or **frame number**, ensuring the data is interpreted correctly for hodogram generation.
 
-![Project Setup Window]<img width="1918" height="1021" alt="startupWindow_english" src="https://github.com/user-attachments/assets/00f135a7-3a0c-46fc-9bc9-bd1e87ae95f8" />
-
+![Project Setup Window](https://github.com/user-attachments/assets/00f135a7-3a0c-46fc-9bc9-bd1e87ae95f8)
 
 
 ### 2. Main Workspace: The Synchronization Hub
