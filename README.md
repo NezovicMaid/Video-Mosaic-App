@@ -76,4 +76,4 @@ The source code for this project is private. If you are a potential employer, ac
 
 ## Contact
 
-Maid Nezović - **maid.nezovic@email.com**
+Maid Nezović - **mnezovic1@gmail.com**
