@@ -28,10 +28,8 @@ The process begins in the Project Setup window. Here, the user defines all input
 
 After configuration, the user enters the main workspace. The interface is split into two key areas: a video preview grid and an interactive timeline. The preview grid provides a simultaneous view of all video streams, while the timeline below is the central tool for synchronization.
 
-![Main Workspace](assets/02_main_workspace.png)
-*(**Tvoj zadatak:** Postavi sliku `main.qml` koja prikazuje sve učitane klipove u gridu i na timeline-u)*
+![Main Workspace](https://github.com/user-attachments/assets/18bc3ca6-d5ca-45ed-b097-50edcb8f861c)
 
----
 
 ### 3. Interactive Synchronization & Analysis
 
@@ -39,12 +37,9 @@ The core task is achieving precise temporal alignment. The application offers se
 
 -   **Drag & Drop:** Clips can be moved directly on the timeline by dragging them with the mouse.
 -   **Numerical Offset:** For fine-tuning, the time offset for each clip can be entered numerically.
--   **Zoom View:** For critical synchronization points, the user can open a dedicated **Zoom View**. This window displays a selected video stream in high resolution, making it easy to spot subtle details and fast-moving events.
+-   **Zoom View:** For critical synchronization points, the user can open a dedicated **Zoom View**. This window displays a selected video stream in high resolution, making it easy to spot subtle details and fast-moving events. The zoom window can be moved and resized by the user.
 
-![Synchronization in Action](assets/03_sync_and_zoom.png)
-*(**Tvoj zadatak:** Postavi sliku koja prikazuje pomjeren klip na timeline-u, sa otvorenim `ZoomView` prozorom iznad)*
-
----
+![Synchronization in Action](https://github.com/user-attachments/assets/85e0e235-29cb-44c1-a9d2-8e1cfc7e7a89)
 
 ### 4. Exporting the Final Video Mosaic
 
@@ -55,19 +50,16 @@ Once synchronization is complete, the final step is to generate the video mosaic
 -   **Layout Management:** Custom layouts can be saved to a text file and reloaded later, streamlining work on similar projects.
 -   **Time Overlay:** An optional digital clock can be burned into the final video, displaying the elapsed time in milliseconds.
 
-![Export Window](assets/04_export_window.png)
-*(**Tvoj zadatak:** Postavi sliku `ExportWindow.qml` sa odabranim "Custom" layoutom, gdje se vide X,Y,W polja i preview)*
+![Export Window](https://github.com/user-attachments/assets/f6204fcf-fa16-4512-8d26-9581055e06dd)
 
----
 
 ### 5. Example Outputs
 
 The flexibility of the layout system allows for the creation of both uniform and complex visual displays, tailored to the specific needs of the analysis.
 
-![Example Outputs](assets/05_final_renders.png)
-*(**Tvoj zadatak:** Napravi kompozitnu sliku koja prikazuje dva primjera finalnog videa, npr. jedan sa Grid layoutom i jedan sa Custom layoutom, jedan pored drugog)*
+![Example Output](https://github.com/user-attachments/assets/7cf72eeb-d3d4-4fbc-b17f-2434dcebf68d)
 
----
+
 
 ## Technology Stack
 
