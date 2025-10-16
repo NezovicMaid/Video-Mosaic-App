@@ -3,6 +3,14 @@
 A C++/QML desktop application for synchronizing multiple video files and tabular data (CSV/XLSX) to generate a composite video mosaic for technical analysis.
 
 ---
+## Technology Stack
+
+-   **Framework:** [Qt 6](https://www.qt.io/)
+-   **Languages:** C++, QML
+-   **Core Libraries:**
+    -   [OpenCV](https://opencv.org/): For all backend video processing tasks.
+    -   [QXlsx](https://github.com/QtExcel/QXlsx): For parsing Microsoft Excel (`.xlsx`) data files.
+    -   [QCustomPlot](https://www.qcustomplot.com/): For rendering scientific charts and generating hodogram visuals.
 
 ## About The Project
 
@@ -62,16 +70,6 @@ The flexibility of the layout system allows for the creation of both uniform and
 **For a demonstration of the final generated videos in motion, please see the examples at the following link:**
 [**View Example Videos on Google Drive**](https://drive.google.com/drive/folders/1c-LTPQgP8VDiT4myTBIjfsBrCC_Kq4sB?usp=sharing)
 
-
-
-## Technology Stack
-
--   **Framework:** [Qt 6](https://www.qt.io/)
--   **Languages:** C++, QML
--   **Core Libraries:**
-    -   [OpenCV](https://opencv.org/): For all backend video processing tasks.
-    -   [QXlsx](https://github.com/QtExcel/QXlsx): For parsing Microsoft Excel (`.xlsx`) data files.
-    -   [QCustomPlot](https://www.qcustomplot.com/): For rendering scientific charts and generating hodogram visuals.
 
 ## Source Code Access
 
